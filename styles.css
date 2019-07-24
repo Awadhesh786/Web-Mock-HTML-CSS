@@ -1,0 +1,257 @@
+body{
+    margin: 0px;
+}
+.header{
+    /* background-color: red; */
+    flex-direction: row;
+    display: flex;
+    background-color:beige;
+    
+    
+}
+.headerLeft{
+    background-color:beige;
+    width: 80%;
+}
+.headerRight{
+    background-color:aqua;
+    width: 20%;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-left-radius: 50px;
+}
+.login-icon{
+    height: 12px;
+    width: 12px;
+    margin-left: 10px;
+}
+.head-content{
+    padding: 2;
+    margin: 6;
+}
+.log{
+    margin: 6px;
+}
+.vl {
+    border-left: 2px solid white;
+    height: 20px;
+    margin-left: 4px;
+  }
+.imgSlide{
+    background-image: url("./Image/walls.webp");
+    background-color: #cccccc;
+    height: 45%;
+    width: 100%; 
+     
+   
+}
+.imgHead{
+    display: flex;
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    margin: 0;
+}
+.imgBody{
+    margin-left: 30px;
+    color: aqua;
+    width: 50%;
+}
+.tab-bar{
+    flex-direction: row;
+    display: flex;
+    border-radius: 6px;
+   width: 400px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.home{
+    margin: 5;
+    padding: 1;
+    font-size: 12px;
+}
+.rightArrow{
+    height: 10px;
+    width: 10px;
+    align-self: center;
+    
+}
+.leftStory{
+    margin-left: 20px;
+}
+.story{
+    font-size: 30px;
+}
+.please{
+    margin-left: 20px;
+}
+.line{
+    width: 60px;
+    height: 7px;
+    margin-left: 20px;
+    padding: 0;
+    background-color:aqua;
+    border-radius: 10px;
+}
+
+.board{
+    flex-direction: row;
+    display: flex;
+}
+.detail{
+    margin-top: 20px;
+    margin-left: 60px;
+    width: 50%;
+}
+.fullName{
+    margin-top: 20px;
+}
+.nameInput{
+    margin: 10px;
+    padding: 1px;
+    height: 50px;
+    width: 350px;
+    border-radius: 6px;
+    border-color: rgb(30, 63, 63);
+}
+.msg{
+    margin: 10px;
+    padding: 1px;
+    height: 80px;
+    width: 350px;
+    border-radius: 6px;
+    border-color: rgb(30, 63, 63);
+}
+.name{
+    margin: 0px;
+    padding: 1px;
+}
+.btnField{
+    justify-content: flex-end;
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 50%;
+}
+.btn{
+    background-color: aqua;
+    padding: 10px;
+    border-radius: 6px;
+    width: 100px;
+}
+.rightSide{
+    display: flex;
+    align-self: baseline;
+    justify-self: center;
+    margin: 0 auto;
+    width: 100%;
+    margin-top: 2%;
+
+}
+.card{
+    background-color:rgb(212, 206, 206);
+    padding: 20px;
+    margin: 0 auto;
+    flex-direction: row;
+    display: flex;
+    border-radius: 6px;
+    width: 40%;
+
+}
+.tipsImg{
+    height: 30px;
+    width: 30px;
+    padding: 6px;
+
+}
+.imp{
+    font-weight: bold;
+    margin-left: 10px;
+    margin: 0;
+    padding: 0;
+}
+.des{
+    font-size: 12px;;
+    margin: 0;
+    padding: 2px;
+}
+.footerUp{
+   
+    background-color:rgb(212, 206, 206);
+    margin: 0;
+    padding: 0;
+}
+.desDown{
+    
+    font-size: 14px;
+    margin: 0;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.footer{
+    flex-direction: row;
+    display: flex;
+    background-color:aqua;
+    margin: 0;
+    width: 100%;
+    padding-bottom: 20px;
+}
+.partFooter{
+    width: 25%;
+}
+.logo{
+    width: 70px;
+    height: 100px;
+}
+.footHead{
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    font-size: 12px;
+    margin-top: 20px;
+}
+.footPart{
+    text-align: center;
+    font-size: 12px;
+    margin: 3;
+    padding: 0;
+    color: brown;
+}
+.footline {
+    border-left: 20px solid rgb(212, 206, 206);
+    height: 150px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+.end{
+    flex-direction: row;
+    display: flex;
+    background-color: aqua;
+    margin: 0;
+    padding: 5px;
+    
+    justify-content: flex-end;
+}
+hr{
+    width: 100%;
+    height: 6px;
+    background-color:rgb(212, 206, 206);
+    margin: 0;
+    padding: 0;
+}
+.version{
+    color: black;
+    margin: 0;
+    padding: 0;
+    font-size: 10px;
+
+
+}
+.cImg{
+    width: 10px;
+    height: 10px;
+}
