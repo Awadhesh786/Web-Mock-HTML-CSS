@@ -39,12 +39,12 @@ body{
     height: 20px;
     margin-left: 4px;
   }
-.imgSlide{
-    background-image: url("./Image/walls.webp");
-    background-color: #cccccc;
-    height: 45%;
-    width: 100%; 
-     
+  .imgSlide{
+      width: 100%;
+  }
+.imgSlide img{
+    width: 100%;
+    background-size: cover;
    
 }
 .imgHead{
