@@ -21,11 +21,13 @@ body{
     align-items: center;
     justify-content: center;
     border-top-left-radius: 50px;
+    padding-left: 20;
 }
 .login-icon{
     height: 12px;
     width: 12px;
     margin-left: 10px;
+    cursor: pointer;
 }
 .head-content{
     padding: 2;
@@ -33,6 +35,7 @@ body{
 }
 .log{
     margin: 6px;
+    cursor: pointer;
 }
 .vl {
     border-left: 2px solid white;
@@ -71,6 +74,7 @@ body{
     margin: 5;
     padding: 1;
     font-size: 12px;
+    cursor: pointer;
 }
 .rightArrow{
     height: 10px;
@@ -95,6 +99,14 @@ body{
     background-color:aqua;
     border-radius: 10px;
 }
+.line:hover{
+    width: 180px;
+    height: 7px;
+    margin-left: 20px;
+    padding: 0;
+    background-color: black;
+    border-radius: 20px;
+}
 
 .board{
     flex-direction: row;
@@ -114,15 +126,20 @@ body{
     height: 50px;
     width: 350px;
     border-radius: 6px;
-    border-color: rgb(30, 63, 63);
+    border-color: #A5A7A7;
+    padding-left: 10;
 }
 .msg{
-    margin: 10px;
+    margin-top: 10px;
     padding: 1px;
+    padding-top: 10;
     height: 80px;
     width: 350px;
+    resize: none;
+    padding-left: 10;
     border-radius: 6px;
-    border-color: rgb(30, 63, 63);
+    border-color: #A5A7A7;
+
 }
 .name{
     margin: 0px;
@@ -140,6 +157,15 @@ body{
     padding: 10px;
     border-radius: 6px;
     width: 100px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #000000;
+    padding: 10px;
+    border-radius: 6px;
+    width: 100px;
+    color: aliceblue;
+    cursor: pointer;
 }
 .rightSide{
     display: flex;
@@ -158,7 +184,7 @@ body{
     display: flex;
     border-radius: 6px;
     width: 40%;
-
+    cursor: pointer;
 }
 .tipsImg{
     height: 30px;
@@ -176,6 +202,7 @@ body{
     font-size: 12px;;
     margin: 0;
     padding: 2px;
+    padding-top: 8;
 }
 .footerUp{
    
@@ -191,6 +218,7 @@ body{
     padding-right: 80px;
     padding-top: 40px;
     padding-bottom: 40px;
+    color: #ffffff;
 }
 .footer{
     flex-direction: row;
@@ -209,17 +237,20 @@ body{
 }
 .footHead{
     font-weight: bold;
-    color: black;
+    color: #ffffff;
     text-align: center;
-    font-size: 12px;
+    font-size: 14px;
     margin-top: 20px;
+    cursor: pointer;
 }
 .footPart{
     text-align: center;
     font-size: 12px;
     margin: 3;
     padding: 0;
-    color: brown;
+    color: #000000;
+    cursor: pointer;
+    margin-top: 6;
 }
 .footline {
     border-left: 20px solid rgb(212, 206, 206);
@@ -233,7 +264,6 @@ body{
     background-color: aqua;
     margin: 0;
     padding: 5px;
-    
     justify-content: flex-end;
 }
 hr{
@@ -248,10 +278,10 @@ hr{
     margin: 0;
     padding: 0;
     font-size: 10px;
-
-
+    cursor: pointer;
 }
 .cImg{
     width: 10px;
     height: 10px;
+    cursor: pointer;
 }
